@@ -20,6 +20,13 @@ header{
     background-color: lightcoral;
     font-family: Oswald;
 }
+nav{
+    font-family: Lato;
+}
+nav > a:hover{ 
+
+    color:silver; 
+}
 main{
     background-color: lightblue;
     /* make element take up any surplas space */
