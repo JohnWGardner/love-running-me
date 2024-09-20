@@ -13,12 +13,12 @@ body{
     display: flex;
     flex-direction: column;
     color: #3a3a3a;
-}
-h1{
     font-family: Lato;
 }
+
 header{
     background-color: lightcoral;
+    font-family: Oswald;
 }
 main{
     background-color: lightblue;
