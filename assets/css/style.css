@@ -74,9 +74,15 @@ nav{
 }
 #nav-toggle:checked~nav{
     display: block;
-
 }
 
+#nav-toggle{
+    display: none;    
+}
+
+.nav-toggle-label{
+    font-size: 2rem;
+}
 
 
 /* Main content */
