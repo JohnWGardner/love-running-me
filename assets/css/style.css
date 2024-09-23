@@ -18,10 +18,18 @@ body{
 
 header{
     background-color: lightcoral;
-    font-family: Oswald;
+    font-family: 'Oswald', sans-serif;
 }
+h1{
+    background-color: lightcoral;
+    font-family: 'Oswald', sans-serif;
+}
+/* #logo {
+    font-size: 2em;
+    font-weight: bold;
+} */
 nav{
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
 }
 nav > a:hover{ 
 
