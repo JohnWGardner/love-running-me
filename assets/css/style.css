@@ -188,6 +188,16 @@ hr {
     color: #ffffff;
 }
 
+/* gallery page */
+#photos img{
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos{
+    line-height: 0;
+}
+
 /* Footer */
 #social-networks{
     text-align: center;
@@ -202,6 +212,14 @@ hr {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -254,12 +272,21 @@ hr {
         text-align: end;
         align-self: flex-end;
     }
+    #photos{
+        column-count: 3;
+    }
+
 
 }
 
 @media screen and (min-width: 992px){
     #menu a:hover {        
         border-bottom: 1px solid #3a3a3a3a;
+      }
+
+      /* Gallery */
+      #photos{
+        column-count: 4;
       }
 }
 
